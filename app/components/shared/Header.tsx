@@ -2,7 +2,6 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { Button } from "../shadcn/button";
 import NavList from "./NavList";
-import { LogIn } from "lucide-react";
 
 const Header = () => {
   return (
@@ -19,7 +18,6 @@ const Header = () => {
         <SignedOut>
           <SignInButton>
             <Button className="bg-blue-500 hover:bg-blue-500/90">
-              <LogIn className="mr-2 h-4 w-4" />
               Sign In
             </Button>
           </SignInButton>
