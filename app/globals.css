@@ -6,3 +6,8 @@
     --radius: 0.5rem
   }
 }
+
+/* Hide Clerk development mode banner on SignIn/Up modals */
+.cl-internal-1dauvpw {
+  @apply hidden
+}

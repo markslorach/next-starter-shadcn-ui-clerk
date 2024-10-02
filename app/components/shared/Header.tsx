@@ -1,14 +1,19 @@
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { Button } from "../shadcn/button";
+import NavList from "./NavList";
 
-const NavBar = () => {
+const Header = () => {
   return (
     <header className="h-16 border-b text-lg">
       <div className="container flex h-full items-center justify-between">
-        <Link href="/" className="font-semibold">
-          Next<span className="text-blue-500">Starter</span>.
-        </Link>
+        <div className="flex items-center space-x-12">
+          <Link href="/" className="font-semibold">
+            Next<span className="text-blue-500">Starter</span>.
+          </Link>
+
+          <NavList />
+        </div>
 
         <SignedOut>
           <SignInButton>
@@ -24,4 +29,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Header;

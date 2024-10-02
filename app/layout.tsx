@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import NavBar from "./components/shared/NavBar";
+import Header from "./components/shared/Header";
 import Footer from "./components/shared/Footer";
 
 const inter = Inter({
@@ -28,7 +28,7 @@ export default function RootLayout({
         <body
           className={`${inter.className} flex min-h-dvh flex-col antialiased`}
         >
-          <NavBar />
+          <Header />
           {children}
           <Footer />
         </body>
