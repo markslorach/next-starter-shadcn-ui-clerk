@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container flex h-full items-center justify-between">
         <div className="flex items-center space-x-12">
           <Link href="/" className="font-semibold">
-            Next<span className="text-blue-500">Starter</span>.
+            next<span className="text-blue-500">starter</span>.
           </Link>
 
           <NavList />
