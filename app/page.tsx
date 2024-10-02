@@ -1,5 +1,5 @@
 import { Github } from "lucide-react";
-import { Button } from "./components/shadcn/button";
+import { Button } from "./components/shadcn-ui/button";
 import Link from "next/link";
 
 const HomePage = () => {

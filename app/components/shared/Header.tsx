@@ -1,6 +1,6 @@
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
-import { Button } from "../shadcn/button";
+import { Button } from "../shadcn-ui/button";
 import NavList from "./NavList";
 
 const Header = () => {
