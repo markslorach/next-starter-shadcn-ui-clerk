@@ -1,4 +1,6 @@
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
+import { Button } from "../shadcn/button";
 
 const NavBar = () => {
   return (
@@ -7,6 +9,16 @@ const NavBar = () => {
         <Link href="/" className="font-semibold">
           Next<span className="text-blue-500">Starter</span>.
         </Link>
+
+        <SignedOut>
+          <SignInButton>
+            <Button>Sign In</Button>
+          </SignInButton>
+        </SignedOut>
+
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
       </div>
     </header>
   );
