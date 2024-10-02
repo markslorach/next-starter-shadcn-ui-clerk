@@ -18,7 +18,7 @@ const NavList = () => {
           <li
             key={route}
             className={cn({
-              "text-base text-zinc-600 transition hover:text-blue-500": true,
+              "text-base font-medium text-zinc-600 transition hover:text-blue-500": true,
               "text-blue-500": pathname === path,
             })}
           >
