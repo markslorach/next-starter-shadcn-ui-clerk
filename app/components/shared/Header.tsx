@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="h-16 border-b text-lg">
       <div className="container flex h-full items-center justify-between">
-        <div className="flex items-center space-x-12">
+        <div className="flex items-center gap-x-6 sm:gap-x-12">
           <Link href="/" className="font-semibold">
             next<span className="text-blue-500">starter</span>.
           </Link>
