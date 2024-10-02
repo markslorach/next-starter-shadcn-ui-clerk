@@ -3,11 +3,12 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --radius: 0.5rem
+    --radius: 0.5rem;
   }
 }
 
-/* Hide Clerk development mode banner on SignIn/Up modals */
-.cl-internal-1dauvpw {
-  @apply hidden
+/* Hide Clerk development mode banner on SignIn/Up modals and User Button */
+.cl-internal-1dauvpw,
+.cl-internal-1hp5nqm {
+  @apply hidden;
 }
