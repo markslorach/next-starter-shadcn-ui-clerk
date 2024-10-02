@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container flex h-full items-center justify-between">
         <small className="text-zinc-500">
           <Link href="https://www.markslorach.com/" target="_blank">
-            &copy; 2024 Mark Slorach
+            &copy; {new Date().getFullYear()} Mark Slorach
           </Link>
         </small>
 
