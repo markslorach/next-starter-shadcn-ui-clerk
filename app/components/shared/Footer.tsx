@@ -12,7 +12,7 @@ const Footer = () => {
         </small>
 
         <Link
-          href="https://github.com/markslorach/next-starter-shadcn-ui.git"
+          href="https://github.com/markslorach/next-starter-shadcn-ui-clerk.git"
           target="_blank"
         >
           <Github className="h-5 w-5" />
