@@ -4,6 +4,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const routes = [
+  { route: "home", path: "/" },
   { route: "server", path: "/protected/server" },
   { route: "client", path: "/protected/client" },
 ];
@@ -18,7 +19,8 @@ const NavList = () => {
           <li
             key={route}
             className={cn({
-              "text-base font-medium text-zinc-600 transition hover:text-blue-500": true,
+              "text-base font-medium text-zinc-600 transition hover:text-blue-500":
+                true,
               "text-blue-500": pathname === path,
             })}
           >
