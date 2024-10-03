@@ -2,7 +2,7 @@
 
 This is a starter template for Next.js 14 projects, featuring -
 
-- **Typescript**
+- **TypeScript**
 - **Tailwind CSS**
 - **Shadcn/ui**
 - **Clerk Auth**
