@@ -15,7 +15,7 @@ const HomePage = () => {
           and Clerk Auth.
         </p>
         <Link
-          href="https://github.com/markslorach/next-starter-shadcn-ui"
+          href="https://github.com/markslorach/next-starter-shadcn-ui-clerk.git"
           target="_blank"
         >
           <Button className="bg-blue-500 hover:bg-blue-500/90">
