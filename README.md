@@ -20,7 +20,7 @@ This is a starter template for Next.js 14 projects, featuring -
 git clone https://github.com/<your_account>/<repository_name>
 ```
 
-4. **Install dependencies:**
+3. **Install dependencies:**
 
 ```bash
 npm install
