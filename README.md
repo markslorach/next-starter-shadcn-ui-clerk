@@ -22,9 +22,9 @@ git clone https://github.com/<your_account>/<repository_name>
 
 4. **Install dependencies:**
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 4. **Set up Clerk:**
 
@@ -43,8 +43,8 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 5. **Run the development server:**
 
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
 Enjoy!
