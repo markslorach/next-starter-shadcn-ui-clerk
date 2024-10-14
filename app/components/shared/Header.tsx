@@ -6,7 +6,7 @@ import { Citrus, LogInIcon } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="h-16 border-b text-lg">
+    <header className="h-16 text-lg">
       <div className="container flex h-full items-center justify-between">
         <div className="flex items-center gap-x-6 sm:gap-x-12">
           <Link href="/" className="flex items-center font-semibold">
@@ -21,7 +21,7 @@ const Header = () => {
 
         <SignedOut>
           <SignInButton>
-            <Button className="hidden bg-blue-500 hover:bg-blue-500/90 sm:block">
+            <Button className="hidden rounded-sm bg-blue-500 px-6 hover:bg-blue-500/90 sm:block">
               Sign In
             </Button>
           </SignInButton>
@@ -29,7 +29,7 @@ const Header = () => {
           <SignInButton>
             <Button
               size="icon"
-              className="bg-blue-500 hover:bg-blue-500/90 sm:hidden"
+              className="rounded-sm bg-blue-500 hover:bg-blue-500/90 sm:hidden"
             >
               <LogInIcon className="h-5 w-5" />
             </Button>

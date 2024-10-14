@@ -1,14 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Mulish } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Header from "./components/shared/Header";
 import Footer from "./components/shared/Footer";
 
-const inter = Inter({
-  variable: "--font-inter",
+// const inter = Inter({
+//   variable: "--font-inter",
+//   subsets: ["latin"],
+// });
+
+const mulish = Mulish({
+  variable: "--font-mulish",
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900", "1000"],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +31,7 @@ export default function RootLayout({
     <ClerkProvider afterSignOutUrl="/">
       <html lang="en">
         <body
-          className={`${inter.className} flex min-h-dvh flex-col antialiased`}
+          className={`${mulish.className} flex min-h-dvh flex-col antialiased`}
         >
           <Header />
           {children}
